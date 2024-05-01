@@ -7,8 +7,8 @@ import {
   LuEye,
   LuWallet,
 } from "react-icons/lu";
-import OngoingOrderCalendar from "./OngoingOrderCalendar";
-import { BreadcrumbAdmin, OrderDataTable } from "@/components";
+import BreadcrumbAdmin  from "./BreadcrumbAdmin";
+import OrderDataTable from "./OrderDataTable";
 import { getDishById, getOrderById } from "@/helpers";
 import { toSentenceCase } from "@/utils";
 import OrderStatistics from "./OrderStatistics";
@@ -155,8 +155,6 @@ const OrderList = () => {
                     <span className="absolute end-2.5 top-1/2 -translate-y-1/2">
                       <LuChevronDown size={16} className="text-default-700" />
                     </span>
-
-                    <OngoingOrderCalendar />
                   </div>
                 </div>
                 {fetchedOrders}

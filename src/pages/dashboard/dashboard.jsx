@@ -1,12 +1,10 @@
 
 import { LuChevronRight } from "react-icons/lu";
 import { cn, toAlphaNumber } from "@/utils";
-import {
-  BestSellingProductCard,
-  BreadcrumbAdmin,
-  OrderDataTable,
-} from "@/components";
-import { orderRows } from "../(order)/orders/page";
+import BestSellingProductCard from "../BestSellingProductCard" ;
+import  BreadcrumbAdmin from "../BreadcrumbAdmin";
+import OrderDataTable from "../OrderDataTable";
+import { orderRows } from "../orderrowpage";
 import {
   analyticsOverviewData,
   categoriesData,

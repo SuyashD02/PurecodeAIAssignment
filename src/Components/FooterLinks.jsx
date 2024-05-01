@@ -1,7 +1,6 @@
 
 import { LuFacebook, LuInstagram, LuPhone } from "react-icons/lu";
 import { FaXTwitter } from "react-icons/fa6";
-import SubscribeToMail from "./SubscribeToMail";
 import { FOOTER_LINKS } from "@/assets/data";
 
 const FooterLinks = () => {
@@ -55,7 +54,6 @@ const FooterLinks = () => {
             </div>
           </div>
 
-          <SubscribeToMail />
         </div>
       </div>
     </div>

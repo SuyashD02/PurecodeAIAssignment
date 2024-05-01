@@ -1,5 +1,5 @@
 import { FaStar, FaStarHalfStroke } from "react-icons/fa6";
-import { DemoFilterDropdown } from "../index";
+import  DemoFilterDropdown from "./DemoFilterDropdown";
 import { cn, toSentenceCase } from "@/utils";
 import { currentCurrency } from "@/common";
 

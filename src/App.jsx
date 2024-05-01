@@ -1,8 +1,9 @@
 import { Toaster } from "sonner";
-import { AppProvidersWrapper, BackToTop } from "./components";
-import {AdminLayout} from "./layouts";
+import AppProvidersWrapper from "./Components/AppProvidersWrapper";
+import BackToTop from "./pages/BackToTop";
+import AdminLayout from "./Components/AdminLayout";
 import { configureFakeBackend } from "@/common";
-import Dashboard from "./app/admin/dashboard/page";
+import Dashboard from "./pages/dashboard/dashboard";
 // styles
 import "@/assets/css/style.css";
 

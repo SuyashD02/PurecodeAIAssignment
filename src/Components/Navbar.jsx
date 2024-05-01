@@ -1,5 +1,5 @@
 
-import SimplebarReactClient from "../../SimplebarReactClient";
+import SimplebarReactClient from "./SimplebarReactClient";
 import { LuLogOut, LuUserCircle2, LuZap } from "react-icons/lu";
 import {
   logoDarkImg,

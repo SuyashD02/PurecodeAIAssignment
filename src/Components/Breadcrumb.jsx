@@ -1,6 +1,6 @@
 
 import { LuChevronRight, LuHome } from "react-icons/lu";
-import PageTitle from "./PageTitle";
+import PageTitle from "../pages/PageTitle";
 
 const Breadcrumb = ({ title, subtitle }) => {
   return (
